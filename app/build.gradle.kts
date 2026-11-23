@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 
     id("com.google.dagger.hilt.android")
+    id("com.google.gms.google-services")
     id("com.google.devtools.ksp")
     id("org.jetbrains.kotlin.plugin.serialization")
 }
