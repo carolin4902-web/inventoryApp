@@ -11,5 +11,6 @@ import com.example.inventoryapp.feature.product.data.local.ProductEntity
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
+
     abstract fun productDao(): ProductDao
 }
